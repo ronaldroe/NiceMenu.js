@@ -15,10 +15,13 @@ Similar to Mean Menu, but supports multiple menus
 
 ###Example
 2 menus, one inside <nav class="mainmenu">, the other inside <nav class="footermenu">.
+
+```javascript
     $(document).ready(function(){
         niceMenu('nav.mainmenu, nav.footermenu');
     }
     $(window).resize(function(){
         niceMenu('nav.mainmenu, nav.footermenu');
     }
+```
 

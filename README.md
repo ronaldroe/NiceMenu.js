@@ -14,7 +14,7 @@ Similar to Mean Menu, but supports multiple menus
  *   supported.
 
 ###Example
-2 menus, one inside <nav class="mainmenu">, the other inside <nav class="footermenu">.
+2 menus, one inside nav.mainmenu, the other inside nav.footermenu.
 
 ```javascript
     $(document).ready(function(){

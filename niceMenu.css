@@ -1,0 +1,43 @@
+/*!** NICE MENU ***/
+/*! Compiled from SCSS - also attached */
+
+body.hasNiceMenu {
+  padding-top: 44px; }
+
+.niceMenu {
+  background: rgba(0, 0, 0, 0.8);
+  position: fixed;
+  top: 0;
+  padding-top: 44px;
+  height: 0;
+  width: 100%;
+  overflow: hidden;
+  color: white;
+  font-family: sans-serif;
+  font-size: 18px;
+  z-index: 10000; }
+  .niceMenu.open {
+    height: auto; }
+  .niceMenu .button {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 44px;
+    width: 44px;
+    line-height: 44px;
+    font-size: 36px;
+    cursor:pointer; }
+  .niceMenu ul {
+    margin-top: 2px;
+    border-top: 10px solid rgba(128, 128, 128, 0.5); }
+    .niceMenu ul li {
+      margin: 0;
+      padding-left: 10px;
+      line-height: 40px;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.5); }
+    .niceMenu ul li:last-child {
+      border: 0; }
+  .niceMenu a {
+    color: white;
+    font-weight: 300;
+    text-decoration: none; }

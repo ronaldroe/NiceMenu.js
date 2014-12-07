@@ -21,3 +21,4 @@ Similar to Mean Menu, but supports multiple menus
     $(window).resize(function(){
         niceMenu('nav.mainmenu, nav.footermenu');
     }
+
